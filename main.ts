@@ -1,3 +1,9 @@
+input.onButtonPressed(Button.A, function () {
+    music.setVolume(music.volume() - 5)
+})
+input.onButtonPressed(Button.B, function () {
+    music.setVolume(music.volume() + 5)
+})
 let prevY = 0
 let prevX = 0
 let x = 2
